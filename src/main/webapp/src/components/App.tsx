@@ -7,10 +7,15 @@ import Scaffolder from "./Scaffolder";
 
 const theme = createMuiTheme({
     palette: {
-        primary: {main: "#ee3f3f"},
+        primary: {main: "#30ACEF"},
         secondary: {main: "#a09f9f"},
         // type: 'dark',
-    }
+    },
+    typography: {
+        allVariants: {
+            color: "white"
+        },
+    },
 });
 
 class App extends React.PureComponent {
